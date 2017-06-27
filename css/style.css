@@ -1,0 +1,134 @@
+.ios_head{
+    width: 100%;
+    background: #CCC;
+    overflow: hidden;
+}
+.ios_head div{
+    float: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 0.4348rem;
+}
+.ios_head p{
+    float: left;
+    font-size: 0.9rem;
+    margin-top: 0.2609rem;
+    margin-left: 4.7826rem;
+}
+.ios_head a{
+    display: block;
+    float: right;
+    font-size: 0.7391rem;
+    color: #222222;
+    margin-top: 0.4348rem;
+    margin-right: 0.6087rem;
+}
+/*主体*/
+.box_main{
+    width: 100%;
+    background: #1199ff;
+}
+/*图*/
+.b_m_img{
+    padding: 1.3043rem 3.5652rem;
+}
+.b_m_img img{
+    width: 10.7826rem;
+    height: 8.3478rem;
+}
+/*键*/
+.main{
+    padding-bottom: 0.8696rem;
+    overflow: hidden;
+}
+.main p{
+    float: left;
+    width: 8.6957rem;
+    padding: 0.4348rem 0;
+    text-align: center;
+    overflow: hidden;
+    font-size: 0.8696rem;
+    color: #FFF;
+    border: 2px solid #81bfff;
+    border-radius: 1.3043rem;
+    background: #62b0ff;
+    margin-left: 4.5217rem;
+}
+.main span{
+    display: block;
+    padding: 0.1739rem 0;
+    float: left;
+    font-size: 0.6957rem;
+    color: #FFF;
+    margin-left: 5.1304rem;
+}
+/*li*/
+ul li{
+    overflow: hidden;
+    border-bottom: 1px solid #CCC;
+}
+ul li div{
+    width: 50%;
+    float: left;
+}
+.li_left{
+    overflow: hidden;
+    padding: 0.4348rem 0;
+}
+.li_left img{
+    float: left;
+    width: 1.2174rem;
+    height: 1.2174rem;
+    margin-top: 0.4348rem;
+    margin-left: 0.4348rem;
+}
+.li_left span{
+    display: block;
+    float: left;
+    font-size: 0.8261rem;
+    font-weight: bold;
+    color: #222222;
+    margin-top: 0.3478rem;
+    margin-left: 0.4348rem;
+}
+.li_right{
+    overflow: hidden;
+    padding: 0.4348rem 0
+}
+.li_right span{
+    display: block;
+    float: right;
+    font-size: 1.0435rem;
+    padding: 0 0.5217rem;
+}
+.li_right p{
+    float: right;
+    padding: 0 0.4348rem;
+    border-radius: 0.6087rem;
+    border: 1px solid red;
+    color: red;
+    margin-top: 0.3478rem;
+}
+/*开关*/
+.switch{
+    float: right;
+    width: 2.1739rem;
+    height: 0.6522rem;
+    border-radius: 0.6087rem;
+    background: #CCC;
+    margin-top: 0.6087rem;
+    margin-right: 0.8696rem;
+    transition: all 1s;
+    position: relative;
+}
+.switch div{
+    width: 1.087rem;
+    height: 1.087rem;
+    border-radius: 50%;
+    border-style: none;
+    background: #666666;
+    position: absolute;
+    top: -0.2174rem;
+    left: 0;
+    transition: all 1s;
+}

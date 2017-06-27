@@ -1,0 +1,59 @@
+.ios_head{
+    width: 100%;
+    background: #CCC;
+    overflow: hidden;
+}
+.ios_head div{
+    float: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 0.4348rem;
+}
+.ios_head p{
+    float: left;
+    font-size: 0.9rem;
+    margin-top: 0.2609rem;
+    margin-left: 4.7826rem;
+}
+/*图片*/
+.i_m_img{
+    padding: 2.6087rem 1.8261rem;
+}
+.i_m_img img{
+    width: 14.2609rem;
+    height: 14.2174rem;
+}
+/*下载数据进度*/
+.i_m span{
+    display: block;
+    text-align: center;
+    font-size: 0.9565rem;
+    color: #222222;
+}
+.i_m p{
+    width: 100%;
+    text-align: center;
+    font-size: 0.6957rem;
+    color: #858585;
+}
+.i_m p i{
+    font-size: 0.8696rem;
+    color: #858585;
+}
+/*进度条*/
+.plan{
+    padding: 1.7391rem 3.7826rem;
+}
+.plan p{
+    width: 10.4348rem;
+    height: 0.5217rem;
+    overflow: hidden;
+    border-radius: 0.4348rem;
+    background: #ecf0f3;
+}
+.plan p span{
+    display: block;
+    height: 100%;
+    background: #7ed321;
+    transition: all 0.2s; 
+}
